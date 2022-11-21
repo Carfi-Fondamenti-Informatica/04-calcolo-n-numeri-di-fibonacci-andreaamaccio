@@ -11,15 +11,17 @@ int main()
     cin>>n;
     if(n>=2)
     {
-      for (int i=0; i<n; i++){
-      cout<<a<<endl;
-      c=a;
-      a=b;
-      b=a+c;
-    }
+        for (int i=0; i<n; i++)
+        {
+        cout<<a<<endl;
+        c=a;
+        a=b;
+        b=a+c;
+        }
     }
     else
+    {
     cout<<"errore";
-    
+    }
     return 0;
 }
